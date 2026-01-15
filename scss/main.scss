@@ -1,0 +1,77 @@
+// VARIABLES GLOBALES
+$primary-color: #333;
+$bg-color: #f4f4f4;
+$shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+//RESET BASICO
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// LAYOUT BASE
+.page {
+    min-height: 100vh;
+    background: $bg-color;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.page__section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+// BLOQUE PRINCIPAL: PROFILE-CARD
+.profile-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: $shadow;
+    max-width: 300px;
+    margin: 0 auto;
+
+    &__photo {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+
+    &__name {
+        font-size: 1.5rem;
+        color: $primary-color;
+        margin-bottom: 0.5rem;
+    }
+
+    &__role {
+        color: #666;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        color: #888;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+
+    &__button {
+        background: $primary-color;
+        color: white;
+        border: none;
+        padding: 0.8rem 2rem;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: opacity 0.3s;
+
+        &__hover {
+            opacity: 0.8;
+        }
+    }
+}
