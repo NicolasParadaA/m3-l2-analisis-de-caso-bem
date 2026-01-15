@@ -46,12 +46,13 @@ BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos**
 
 ## Documentación técnica de la estructura CSS/SCSS.
 
+````markdown
 m3-l2-analisis-de-caso-bem/
-├── index.html # HTML semántico + clases BEM
-├── styles.css # CSS compilado (main.scss → sass)
-├── README.md # Esta documentación
+├── index.html          # HTML semántico + clases BEM
+├── styles.css          # CSS compilado (main.scss → sass)
+├── README.md           # Esta documentación
 └── scss/
-└── main.scss # Variables + Reset + Bloques BEM
+    └── main.scss       # Variables + Reset + Bloques BEM
 
 **main.scss organización**:
 - **Variables**: `$primary-color`, `$shadow` (líneas 1-3)
