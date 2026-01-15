@@ -23,6 +23,14 @@ BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos**
 | SMACSS | Flexible, categorías | Menos reglas, inconsistencias | Equipos que definen sus guías |
 
 **Elegimos BEM** porque PixelPerfect tiene **múltiples equipos** y proyectos simultáneos. La nomenclatura explícita (`profile-card__name`) evita colisiones y facilita colaboración.[web:44][file:1]
+
+| Metodología | Naming | Colaboración |
+|-------------|--------|--------------|
+| **BEM** | `bloque__elemento--modificador` | ⭐⭐⭐⭐⭐ |
+| OOCSS | `.grid-3` reutilizable | ⭐⭐⭐ |
+| SMACSS | `.module .state-active` | ⭐⭐⭐⭐ |
+
+**BEM gana**: Nomenclatura explícita para PixelPerfect Studio.[web:44]
 ## Diseño e implementación. (explicar el componente y clases BEM + Estructura SCSS)
 ## Documentación técnica de la estructura CSS/SCSS.
 ## Reflexión final del proceso.
