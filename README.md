@@ -60,7 +60,6 @@ m3-l2-analisis-de-caso-bem/
 - **Reset**: `* { box-sizing: border-box; }`
 - **Layout**: `.page`, `.page__section`
 - **Componente**: `.profile-card` + modificador `--featured`
-```
 
 ## Reflexión final del proceso.
 
