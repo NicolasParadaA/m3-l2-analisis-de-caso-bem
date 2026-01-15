@@ -32,7 +32,7 @@ BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos**
 - Elementos: `__photo`, `__name`, `__role`, `__description`, `__button`
 - Modificador: `--featured` (borde + sombra extra)
 
-**Demo**: ![Profile Card BEM][screenshot]  ← (link cuando subas imagen)
+**Demo**: ![Profile Card BEM](screenshot.jpg)
 
 **SCSS aplicado**: Variables (`$primary-color`), nesting, responsive-ready.
 ## Documentación técnica de la estructura CSS/SCSS.
