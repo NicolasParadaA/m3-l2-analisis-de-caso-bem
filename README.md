@@ -23,14 +23,41 @@ BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos**
 | SMACSS | Flexible, categorías | Menos reglas, inconsistencias | Equipos que definen sus guías |
 
 **Elegimos BEM** porque PixelPerfect tiene **múltiples equipos** y proyectos simultáneos. La nomenclatura explícita (`profile-card__name`) evita colisiones y facilita colaboración.[web:44][file:1]
-
-| Metodología | Naming | Colaboración |
-|-------------|--------|--------------|
-| **BEM** | `bloque__elemento--modificador` | ⭐⭐⭐⭐⭐ |
-| OOCSS | `.grid-3` reutilizable | ⭐⭐⭐ |
-| SMACSS | `.module .state-active` | ⭐⭐⭐⭐ |
-
-**BEM gana**: Nomenclatura explícita para PixelPerfect Studio.[web:44]
 ## Diseño e implementación. (explicar el componente y clases BEM + Estructura SCSS)
+
+**Componente**: Profile Card con foto, nombre, rol, descripción y botón CTA.
+
+**Clases BEM usadas**:
+- Bloque: `profile-card`
+- Elementos: `__photo`, `__name`, `__role`, `__description`, `__button`
+- Modificador: `--featured` (borde + sombra extra)
+
+**Demo**: ![Profile Card BEM][screenshot]  ← (link cuando subas imagen)
+
+**SCSS aplicado**: Variables (`$primary-color`), nesting, responsive-ready.
 ## Documentación técnica de la estructura CSS/SCSS.
+
+m3-l2-analisis-de-caso-bem/
+├── index.html # HTML semántico + clases BEM
+├── styles.css # CSS compilado (main.scss → sass)
+├── README.md # Esta documentación
+└── scss/
+└── main.scss # Variables + Reset + Bloques BEM
+
+**main.scss organización**:
+- **Variables**: `$primary-color`, `$shadow` (líneas 1-3)
+- **Reset**: `* { box-sizing: border-box; }`
+- **Layout**: `.page`, `.page__section`
+- **Componente**: `.profile-card` + modificador `--featured`
 ## Reflexión final del proceso.
+
+**Desafíos**:
+- BEM naming largo pero explícito.
+
+**Beneficios**:
+- **0 conflictos** en los estilos entre devs.
+- Fácil mantenimiento (`profile-card__name`), es mas fácil de identificar.
+- Escalable.
+
+**Impacto colaborativo**: 
+El equpo de PixelPerfect encontrarian las clases en segundos.
