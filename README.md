@@ -14,7 +14,15 @@ Componente elegido: **Profile Card** (adaptado de W3Schools), bloque BEM: `profi
 
 BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos** (`__name`) y **modificadores** (`--featured`).[web:20]
 
-## Metodología elegida (BEM) y comparación breve con OOCSS y SMACSS.
+## Metodología elegida (BEM) y comparación breve con OOCSS y SMACSS
+
+| Metodología | Fortalezas | Debilidades | Mejor para |
+|-------------|------------|-------------|------------|
+| **BEM** | Nombres claros, escalable, sin conflictos | Nombres largos | Equipos grandes, PixelPerfect[web:44] |
+| OOCSS | Reutilización, separa estructura/piel | Abstracta para novatos | UI consistente |
+| SMACSS | Flexible, categorías | Menos reglas, inconsistencias | Equipos que definen sus guías |
+
+**Elegimos BEM** porque PixelPerfect tiene **múltiples equipos** y proyectos simultáneos. La nomenclatura explícita (`profile-card__name`) evita colisiones y facilita colaboración.[web:44][file:1]
 ## Diseño e implementación. (explicar el componente y clases BEM + Estructura SCSS)
 ## Documentación técnica de la estructura CSS/SCSS.
 ## Reflexión final del proceso.

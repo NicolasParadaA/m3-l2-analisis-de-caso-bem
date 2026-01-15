@@ -75,3 +75,12 @@ $shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
     }
 }
+
+.profile-card--featured {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border: 2px solid $primary-color;
+}
+
+.profile-card--featured .profile-card__button {
+    background: #222;
+}
