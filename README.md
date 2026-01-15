@@ -26,14 +26,14 @@ BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos**
 | Metodología | Fortalezas | Debilidades | Mejor para |
 |-------------|------------|-------------|------------|
 | **BEM** | Nombres claros, escalable, sin conflictos | Nombres largos | Equipos grandes, PixelPerfect |
-| OOCSS | Reutilización, separa estructura/piel | Abstracta para novatos | UI consistente |
+| OOCSS | Reutilización, separa estructura/skin | Abstracta para novatos | UI consistente |
 | SMACSS | Flexible, categorías | Menos reglas, inconsistencias | Equipos que definen sus guías |
 
 **Elegimos BEM** porque PixelPerfect tiene **múltiples equipos** y proyectos simultáneos. La nomenclatura explícita (`profile-card__name`) evita colisiones y facilita colaboración.
 
 ## Diseño e implementación. (explicar el componente y clases BEM + Estructura SCSS)
 
-**Componente**: Profile Card con foto, nombre, rol, descripción y botón CTA.
+**Componente**: Profile Card con foto, nombre, rol, descripción y botón contacto.
 
 **Clases BEM usadas**:
 - Bloque: `profile-card`
