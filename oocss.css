@@ -4,16 +4,21 @@
   box-sizing: border-box;
 }
 
-.o-page {
-  min-height: 100vh;
-  background: #f4f4f4;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
 }
 
-.o-container {
-  max-width: 400px;
-  margin: 0 auto;
+.nav__link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
 }
 
 .o-card {
