@@ -12,19 +12,6 @@
 - **SMACSS**: https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/smacss.html  
   ![Demo SMACSS](./images/screenshot_smacss.jpg)
 
-
-## Demos
-
-- BEM: `index.html`
-- OOCSS: `oocss.html`
-- SMACSS: `smacss.html`
-
-Live:
-- https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/
-- https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/oocss.html
-- https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/smacss.html
-
-
 ## Introducción y contexto del caso
 
 PixelPerfect Studio enfrenta problemas de escalabilidad en CSS por selectores genéricos y duplicados. Se adopta **BEM** para modularizar estilos en múltiples proyectos.
@@ -66,19 +53,31 @@ Las metodologías mencionadas ayudan a trabajar con estilos más escalables, red
 - Elementos: `__photo`, `__name`, `__role`, `__description`, `__button`
 - Modificador: `--featured` (borde + sombra extra)
 
-**Demo**: ![Profile Card BEM](./images/screenshot_bem.jpg)
-
 **SCSS aplicado**: Variables (`$primary-color`), nesting, responsive-ready.
 
 ## Documentación técnica de la estructura CSS/SCSS.
 
 ```
 m3-l2-analisis-de-caso-bem/
-├── index.html          # HTML semántico + clases BEM
-├── styles.css          # CSS compilado (main.scss → sass)
-├── README.md           # Esta documentación
+├── index.html
+├── oocss.html
+├── smacss.html
+├── README.md
+├── images/
+│ ├── avatar.jpg
+│ ├── avatar2.jpg
+│ ├── avatar3.jpg
+│ ├── screenshot_bem.jpg
+│ ├── screenshot_oocss.jpg
+│ └── screenshot_smacss.jpg
+├── css/
+│ ├── styles.css
+│ ├── oocss.css
+│ └── smacss.css
 └── scss/
-    └── main.scss       # Variables + Reset + Bloques BEM
+├── main.scss
+├── oocss.scss
+└── smacss.scss
 ```
 
 **main.scss organización**:
