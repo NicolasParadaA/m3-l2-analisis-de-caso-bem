@@ -2,7 +2,7 @@
 **Nicolas Parada** - Sence Bootcamp Front-end Web Dev
 
 ## 🚀 Demo Live
-[![Profile Card BEM](screenshot.jpg)](https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/)
+[![Profile Card BEM](./images/screenshot.jpg)](https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/)
 
 ## Demos
 
