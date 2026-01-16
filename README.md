@@ -4,13 +4,14 @@
 ## 🚀 Demo Live
 
 - **BEM**: https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/  
-  ![Demo BEM](./images/screenshot_bem.jpg)
+  [![Demo BEM](./images/screenshot_bem.jpg)](https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/)
 
 - **OOCSS**: https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/oocss.html  
-  ![Demo OOCSS](./images/screenshot_oocss.jpg)
+  [![Demo OOCSS](./images/screenshot_oocss.jpg)](https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/oocss.html)
 
 - **SMACSS**: https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/smacss.html  
-  ![Demo SMACSS](./images/screenshot_smacss.jpg)
+  [![Demo SMACSS](./images/screenshot_smacss.jpg)](https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/smacss.html)
+
 
 ## Introducción y contexto del caso
 
