@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+.nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.nav__link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
 .page {
   min-height: 100vh;
   background: #f4f4f4;
