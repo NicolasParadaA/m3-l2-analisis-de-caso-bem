@@ -1,0 +1,90 @@
+$primary: #333;
+$bg: #f4f4f4;
+$shadow: 0 4px 8px rgba(0, 0, 0, .2);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.o-page {
+    min-height: 100vh;
+    background: $bg;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.o-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+// Objects (estructura)
+.o-card {
+    padding: 2rem;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.o-avatar {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+}
+
+.o-title {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.o-subtitle {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.o-text {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.o-btn {
+    border: 0;
+    padding: .8rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+// Skins (visual)
+.s-surface {
+    background: white;
+}
+
+.s-shadow {
+    box-shadow: $shadow;
+}
+
+.s-rounded {
+    border-radius: 10px;
+}
+
+.s-avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: $shadow;
+}
+
+.s-text-strong {
+    color: $primary;
+}
+
+.s-text-muted {
+    color: #666;
+}
+
+.s-btn-primary {
+    background: $primary;
+    color: white;
+}
