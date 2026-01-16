@@ -99,10 +99,12 @@ m3-l2-analisis-de-caso-bem/
 **Impacto colaborativo**: 
 El equpo de PixelPerfect encontrarian las clases en segundos.
 
-**Reflexión personal**  
+**Reflexión personal**:  
 
 En palabras simples: 
 
 **BEM** es una metodología de nombrado que ayuda a identificar rápidamente a qué componente pertenece cada clase (bloque, elemento y modificador), evitando conflictos y facilitando el mantenimiento.  
+
 **SMACSS** es una guía/arquitectura para escribir CSS de forma escalable clasificando los estilos en categorías como *Base, Layout, Module y State*; esto ayuda tanto a organizar los archivos como a mantener una estructura mental clara del CSS.  
+
 **OOCSS** propone separar “estructura” y “skin”: la estructura define el layout (tamaños, espaciados, distribución) y la skin define lo visual (colores, fondos, sombras), favoreciendo la reutilización.
