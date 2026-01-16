@@ -21,19 +21,21 @@
   text-decoration: underline;
 }
 
-.page {
+/* Layout */
+.l-page {
   min-height: 100vh;
   background: #f4f4f4;
   padding: 2rem;
   font-family: Arial, sans-serif;
 }
 
-.page__section {
+.l-container {
   max-width: 400px;
   margin: 0 auto;
 }
 
-.profile-card {
+/* Module */
+.m-profileCard {
   background: white;
   border-radius: 10px;
   padding: 2rem;
@@ -42,7 +44,8 @@
   max-width: 300px;
   margin: 0 auto;
 }
-.profile-card__photo {
+
+.m-profileCard-photo {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -51,43 +54,38 @@
   border: 4px solid white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.profile-card__name {
+
+.m-profileCard-name {
   font-size: 1.5rem;
   color: #333;
   margin-bottom: 0.5rem;
 }
-.profile-card__role {
+
+.m-profileCard-role {
   color: #666;
-  font-size: 1rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
-.profile-card__description {
+
+.m-profileCard-text {
   color: #888;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
-.profile-card__button {
+
+.m-profileCard-button {
   background: #333;
   color: white;
-  border: none;
+  border: 0;
   padding: 0.8rem 2rem;
   border-radius: 25px;
   cursor: pointer;
-  font-size: 1rem;
-  transition: opacity 0.3s;
-}
-.profile-card__button:hover {
-  opacity: 0.8;
 }
 
-.profile-card--featured {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+/* State */
+.is-featured {
   border: 2px solid #333;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-.profile-card--featured .profile-card__button {
-  background: #222;
-}
-
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=smacss.css.map */

@@ -4,6 +4,18 @@
 ## 🚀 Demo Live
 [![Profile Card BEM](screenshot.jpg)](https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/)
 
+## Demos
+
+- BEM: `index.html`
+- OOCSS: `oocss.html`
+- SMACSS: `smacss.html`
+
+Live:
+- https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/
+- https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/oocss.html
+- https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/smacss.html
+
+
 ## Introducción y contexto del caso
 
 PixelPerfect Studio enfrenta problemas de escalabilidad en CSS por selectores genéricos y duplicados. Se adopta **BEM** para modularizar estilos en múltiples proyectos.
