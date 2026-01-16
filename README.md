@@ -1,8 +1,17 @@
-# Análisis Caso: Metodología BEM - Profile Card
+# Análisis Caso: Metodología BEM, OOCSS y SMACSS - Profile Card
 **Nicolas Parada** - Sence Bootcamp Front-end Web Dev
 
 ## 🚀 Demo Live
-[![Profile Card BEM](./images/screenshot.jpg)](https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/)
+
+- **BEM**: https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/  
+  ![Demo BEM](./images/screenshot_bem.jpg)
+
+- **OOCSS**: https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/oocss.html  
+  ![Demo OOCSS](./images/screenshot_oocss.jpg)
+
+- **SMACSS**: https://nicolasparadaa.github.io/m3-l2-analisis-de-caso-bem/smacss.html  
+  ![Demo SMACSS](./images/screenshot_smacss.jpg)
+
 
 ## Demos
 
@@ -31,7 +40,7 @@ Componente elegido: **Profile Card** (adaptado de W3Schools), bloque BEM: `profi
 - **Duplicación**: Mismo estilo repetido en varios archivos.
 - **Dificultad colaborativa**: Sin convención, cada dev usa su naming.
 
-BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos** (`__name`) y **modificadores** (`--featured`).
+Las metodologías mencionadas ayudan a trabajar con estilos más escalables, reduciendo colisiones, duplicación y mejorando la colaboración en equipos.
 
 ## Metodología elegida (BEM) y comparación breve con OOCSS y SMACSS
 
@@ -47,12 +56,17 @@ BEM soluciona con **bloques independientes** (ej: `profile-card`), **elementos**
 
 **Componente**: Profile Card con foto, nombre, rol, descripción y botón contacto.
 
+**Implementaciones**:
+- **BEM**: `index.html` + `scss/main.scss` → `css/styles.css`
+- **OOCSS**: `oocss.html` + `scss/oocss.scss` → `css/oocss.css`
+- **SMACSS**: `smacss.html` + `scss/smacss.scss` → `css/smacss.css`
+
 **Clases BEM usadas**:
 - Bloque: `profile-card`
 - Elementos: `__photo`, `__name`, `__role`, `__description`, `__button`
 - Modificador: `--featured` (borde + sombra extra)
 
-**Demo**: ![Profile Card BEM](screenshot.jpg)
+**Demo**: ![Profile Card BEM](./images/screenshot_bem.jpg)
 
 **SCSS aplicado**: Variables (`$primary-color`), nesting, responsive-ready.
 
